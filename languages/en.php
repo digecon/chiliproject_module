@@ -9,7 +9,7 @@
 		'chili:menuitem' => "Project Management", 
 		'chili:security_salt' => "Security salt for password creation (generated automatically)",
 		'chili:server_url' => "ChiliProject server's URL",
-		'chili:title' => "Log in form for ChiliProject",
+		'chili:title' => "Project management system loading",
 		);
 
 	add_translation("en",$english);

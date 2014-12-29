@@ -9,7 +9,7 @@
 		'chili:menuitem' => "Управление проектами", 
 		'chili:security_salt' => 'Ключ безопасности для создания пароля пользователя (генерируется автоматически)',
 		'chili:server_url' => "Адрес сервера ChiliProject", 
-		'chili:title' => "Форма авторизации для ChiliProject",
+		'chili:title' => "Загрузка системы управления проектами...",
 		);
 
 	add_translation("ru",$russian);

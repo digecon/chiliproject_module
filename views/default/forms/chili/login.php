@@ -9,8 +9,7 @@ $chili_settings = elgg_get_plugin_from_id('chili');
 $login_url = $chili_settings->getSetting('server_url') . 'login/';
 $encoded_url = urlencode($chili_settings->getSetting('server_url'));
 ?>
-
-<form method="post" action="<?php echo $login_url; ?>" name="submit_form">
+<form method="post" action="<?php echo $login_url; ?>" name="submit_form" style="display:none;">
 <fieldset>
 <input name="back_url" type="hidden" value="<?php echo $encoded_url; ?>">
 <div>
